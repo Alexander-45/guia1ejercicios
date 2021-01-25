@@ -1,0 +1,77 @@
+body{
+	background-image: url(../IMG/pbg.jpg);
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	margin: 0;
+	overflow-x: hidden;
+}
+header{
+	width:100vw;
+	height: 10vh;
+	line-height: 9vh;
+	color: white;
+	font-size: 1.3em;
+	text-align: center;
+}
+h1{
+	margin:0;
+}
+ul{
+	width: 100vw;
+	text-align: center;
+	background-color: #161B70;
+	height: 6vh;
+	line-height: 6vh;
+	padding:0;
+	margin: 0;
+	position: absolute;
+	z-index: 5;
+}
+li{
+	display: inline-block;
+	width: 10vw;
+}
+a{
+	text-decoration: none;
+	color:white;
+	font-family: "oswald";
+
+}
+a:visited{
+	color: white;
+}
+section{
+	width: 17vw;
+	background-color: #FFFED7;
+	min-height:64vh;
+	margin-top: 10vh;
+	margin-left: 4vw;
+	padding: 1vw 3vh;
+	border-radius: 2vh;
+	display: inline-block;
+}
+section img{
+	width: 17vw;
+	height: 24vh;
+	position:relative;
+}
+h2{
+	text-align: center;
+	margin: 0;
+}
+p{
+	text-align: justify;
+}
+footer{
+	background-color: black;
+	color: white;
+	margin: 0;
+	margin-top: 10vh;
+	height: 10vh;
+	line-height: 10vh;
+	text-align: center;
+}
+footer p{
+	margin: 0;
+	text-align: center;
+}

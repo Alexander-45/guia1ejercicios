@@ -1,0 +1,50 @@
+@font-face {
+	font-family: "oswald";
+	src: url(../fonts/oswald.otf), url(../fonts/oswald.ttf);
+}
+@font-face{
+	font-family: "bodoni";
+	src: url(../fonts/bodoni.otf) url(../fonts/bodoni.ttf);
+}
+@font-face{
+	font-family: "robomono";
+	src: url(../fonts/robomono.otf) url(../fonts/robomono.ttf);
+}
+img{
+	width: 20vw;
+	height: 25vh;
+}
+body{
+	background-image: url(../IMG/bg.jpg);
+	background-attachment: fixed;
+	margin: 0px;
+}
+#color{
+	background-color: rgba(192, 22, 186,0.5);
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	left:0vw;
+	top: 0vh;
+}
+#content{
+	position: absolute;
+	background-color: white;
+	width: 50vw;
+	min-height: 88vh;
+	margin: 0vh 10vw;
+	padding: 6vh 15vw;
+	text-align: center;
+	font-family: "oswald";
+}
+p{
+	font-size: 1.2em;
+	font-family: "robomono";
+}
+h1{
+	font-size: 2em;
+}
+#suricato{
+	width:30vw;
+	height: 40vh;
+}
