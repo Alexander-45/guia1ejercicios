@@ -1,0 +1,24 @@
+ul{
+	width: 100vw;
+	text-align: center;
+	background-color: #161B70;
+	height: 6vh;
+	line-height: 6vh;
+	padding:0;
+	margin: 0;
+	position: absolute;
+	z-index: 5;
+}
+li{
+	display: inline-block;
+	width: 10vw;
+}
+a{
+	text-decoration: none;
+	color:white;
+	font-family: "oswald";
+
+}
+a:visited{
+	color: white;
+}
